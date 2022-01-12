@@ -1,0 +1,21 @@
+﻿<Window x:Class="ValidacionComponente.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ValidacionComponente"
+        xmlns:MisControles="clr-namespace:ValidacionComponente.MisControles"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="DNI" HorizontalAlignment="Left" Height="27" Margin="143,86,0,0" VerticalAlignment="Top" Width="115" FontFamily="Sitka Text"/>
+        <Label Content="Codigo Postal" HorizontalAlignment="Left" Height="27" Margin="143,190,0,0" VerticalAlignment="Top" Width="115" FontFamily="Sitka Text"/>
+        <Label Content="Teléfono" HorizontalAlignment="Left" Height="27" Margin="143,271,0,0" VerticalAlignment="Top" Width="115" FontFamily="Sitka Text"/>
+        <MisControles:MiControl Atributo="DNI" Margin="310,59,90,295" Width="400" Height="80" />
+        <MisControles:MiControl Atributo="CP" Margin="310,164,90,190" Width="400" Height="80" />
+        <MisControles:MiControl Atributo="TEL" Margin="310,235,90,100" Width="400" Height="100" />
+        <Label Content="Comprobacion de formulario" HorizontalAlignment="Center" Height="33" Margin="0,21,0,0" VerticalAlignment="Top" Width="244" FontSize="16" FontFamily="Sitka Text"/>
+
+
+    </Grid>
+</Window>
